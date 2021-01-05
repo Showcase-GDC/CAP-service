@@ -1,0 +1,8 @@
+---
+applications:
+- name: CAPShowcase
+  path: srv/target/CAPShowcase-exec.jar
+  random-route: true
+  services:
+  - CAPShowcase-hana-service
+  - CAPShowcase-uaa
